@@ -1,14 +1,13 @@
-#include <fcntl.h>
-#include <stdio.h>
+#include <fcntl.h>  // no idea LOL!
+#include <stdio.h>  // fprintf
 #include <stdlib.h> // exit
 #include <unistd.h> // usleep
-#include <unistd.h>
 
 #include <X11/Xlib.h>             // XOpenDisplay, XKeysimToKeycode
 #include <X11/extensions/XTest.h> // XTestFakeKyEvent
 #include <X11/keysym.h>           // XK_*
 
-#include <sys/soundcard.h>
+#include <sys/soundcard.h> // also no idea
 
 #define MIDI_NOTE_COUNT 128
 KeySym midinote_to_keysym_table[MIDI_NOTE_COUNT] = {
