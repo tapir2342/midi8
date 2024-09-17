@@ -1,0 +1,12 @@
+AlignAfterOpenBracket: BlockIndent
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortFunctionsOnASingleLine: None
+BasedOnStyle: LLVM
+BinPackArguments: false
+BinPackParameters: false
+#ColumnLimit: 00
+ExperimentalAutoDetectBinPacking: false
+IndentWidth: 4
+UseTab: Never
+WhitespaceSensitiveMacros:
+    - new
