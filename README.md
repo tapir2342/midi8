@@ -14,7 +14,7 @@ Image by: https://iiviigames.github.io/pico8-api/
 
 # Linux
 
-Only supports X11, no Wayland. Requires `libxtst-dev` (or similar; for non-Debian-based distros.
+Only supports X11, no Wayland. Requires `libxtst-dev` (or similar; for non-Debian-based distros).
 
 How to run:
 
